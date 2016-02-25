@@ -1,0 +1,293 @@
+/**
+ * 全局通用样式
+ */
+
+body {
+  font-family: MicrosoftYaHei Regular;
+  font-weight: normal;
+}
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.title:before {
+  content: '';
+  border: 3px solid red;
+  margin-right: 15px;
+}
+.title {
+  color: #000000;
+  font-size: 30px;
+  margin-top: 80px;
+}
+.tool {
+  margin-top: 30px;
+  text-align: right;
+}
+.tool .btn-danger {
+  border-radius: 0;
+  height: 34px;
+  width: 128px;
+}
+
+/**
+ * 头部链接部分
+ */
+
+.head-link {
+  display: block;
+  height: 20px;
+  background: #5c5c5c;
+  color: #a1a1a1;
+}
+.head-link .head-link-left {
+  display: inline-block;
+}
+.head-link .head-link-right {
+  text-align: right;
+}
+.head-link span {
+  margin-right: 12px;
+}
+.head-link span:before {
+  margin-right: 4px;
+}
+
+/**
+ * 头部logo部分
+ */
+
+.head-logo {
+  height: 142px;
+  background: #ffffff;
+  line-height: 142px;
+}
+.head-logo-2 {
+  font-size: 19px;
+  word-spacing: 2px;
+  color: pink;
+}
+.head-logo-3 {
+  margin-top: 55px;
+}
+.head-logo .input-group .input-group-addon:first-of-type {
+  color: #a0a0a0;
+  background: #f6f6f6;
+}
+.head-logo .input-group .input-group-addon:last-of-type {
+  color: #f2f2f2;
+  background: #bcbcbc;
+}
+
+/**
+ * 头部导航部分
+ */
+
+.head-nav {
+  height: 50px;
+  line-height: 50px;
+  background: #c22211;
+}
+.head-nav ul {
+  list-style: none;
+  font-size: 0;
+}
+.head-nav ul li {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  font-size: 20px;
+}
+.head-nav ul li:hover {
+  background: #d82916;
+}
+.head-nav >ul >li >ul {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.head-nav >ul >li >ul >li {
+  background: #f2e9e6;
+  color: #333333;
+  display: block;
+}
+.head-nav >ul >li >ul >li:last-of-type {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.head-nav a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+.head-nav >ul >li >ul >li >a {
+  color: #333333;
+}
+
+/**
+ * 内容 关于部分
+ */
+
+.content-about {
+  height: 342px;
+  background: #ffffff;
+  color: #000000;
+}
+.content-about .ad {
+  margin-top: -38px;
+  margin-left: 30px;
+}
+.content-about .descrip {
+  margin-top: 22px;
+}
+.content-about .descrip h1 {
+  font-size: 30px;
+}
+.content-about .descrip h2 {
+  font-size: 20px;
+}
+.content-about .descrip p {
+  font-size: 16px;
+}
+
+/**
+ * 内容 合并部分
+ */
+
+.content-merge {
+  height: 585px;
+  background: url('../images/meeting-bg.png');
+  overflow: auto;
+}
+.content-merge > div {
+  /*margin-top: 75px;*/
+}
+.party-life .article>h1 {
+  font-size: 20px;
+}
+.party-life .article> p {
+  font-size: 16px;
+}
+.party-life .tool {
+  margin-top: 60px;
+}
+.group-news {
+  height: 585px;
+  background: #ffffff;
+}
+.group-news .row {
+  margin-top: 18px;
+}
+.group-news .row:first-of-type {
+  margin-top: 30px;
+}
+.group-news .number {
+  height: 50px;
+  width: 51px;
+  background: #e5402e;
+  color: #fff;
+  margin-left: 25px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+}
+.group-news .article {
+  /*display:block;*/
+}
+.group-news .article >h1 {
+  margin: 0;
+  font-size: 20px;
+}
+.group-news .article >p {
+  font-size: 16px;
+}
+.group-news .article >p:last-of-type {
+  margin-top: -30px;
+  font-size: 16px;
+}
+
+/**
+ * 内容 集团概况
+ */
+
+.group-situation {
+  /*margin-top: 80px;*/
+  height: 400px;
+  background: #ffffff;
+}
+.group-situation .icons {
+  margin-top: 50px;
+}
+.group-situation p {
+  font-size: 20px;
+  margin-top: 18px;
+}
+
+/**
+ * 内容 行业动态
+ */
+
+.industry-dynamic {
+  height: 840px;
+  background: #fbfbfb;
+}
+.industry-dynamic .dynamic-img {
+  margin-top: 45px;
+  font-size: 16px;
+}
+.industry-dynamic .dynamic-img p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/**
+ * 内容 招贤纳士
+ */
+
+.recruitment .recruitment-people {
+  margin-top: 55px;
+}
+.recruitment .recruitment-people h1 {
+  margin-top: 28px;
+  font-size: 20px;
+}
+.recruitment .recruitment-people p {
+  margin-top: 25px;
+  margin-bottom: 38px;
+  font-size: 16px;
+}
+
+/**
+ * 尾部部分
+ */
+
+.footer {
+  height: 217px;
+  background: #efeff0;
+  font-family: Hiragino Sans GB W3;
+  color: #979799;
+}
+.footer h1 {
+  margin-top: 30px;
+  margin-bottom: 28px;
+  font-size: 20px;
+}
+.footer p {
+  font-size: 14px;
+}
+.footer .copyright p {
+  margin-top: 178px;
+  font-size: 20px;
+}
+.footer p span {
+  margin-left: 18px;
+}
